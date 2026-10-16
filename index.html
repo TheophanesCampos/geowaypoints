@@ -1,5 +1,5 @@
 <!--
-  GeoWay — Planejador de missões fotogramétricas para drone (DJI WPML/KMZ)
+  WayPointsForFly é uma Fork do Geoway — Planejador de missões fotogramétricas para drone (DJI WPML/KMZ)
   Copyright (c) 2026 Marcos Grosselli. Todos os direitos autorais reservados.
   O uso da ferramenta é livre e gratuito. O código-fonte, porém, não é livre:
   não é permitida cópia, redistribuição, incorporação a outros produtos/serviços
@@ -226,7 +226,7 @@ html,body{height:100%;overflow:hidden;background:#0d1117;color:#e6edf3}
 <body>
 <div id="hdr">
   <button id="drawer-toggle" onclick="toggleDrawer()" aria-label="Abrir ajustes" title="Ajustes">☰</button>
-  <span class="logo">GeoWay</span><span class="logo-s">1.2 · Waypoints DJI</span>
+  <span class="logo">WayPointsForFly</span><span class="logo-s">1.0 · Waypoints DJI</span>
   <div class="hdr-r">
     <span class="hdr-lbl">Drone:</span>
     <select class="hdr-sel" id="sel-drone">
@@ -419,7 +419,7 @@ html,body{height:100%;overflow:hidden;background:#0d1117;color:#e6edf3}
         <button id="btn-exp-txt" class="exp-sec" disabled onclick="exportTXT()">📄 TXT UTM</button>
       </div>
       <button id="btn-clr" onclick="clearAll()" style="display:none">Limpar area</button>
-      <div style="text-align:center;font-size:12px;color:#484f58;margin-top:8px">© 2026 Marcos Grosselli | GeoWay</div>
+      <div style="text-align:center;font-size:12px;color:#484f58;margin-top:8px">© 2026 Theophanes Campos | WayPointsForFly</div>
     </div>
   </div>
 </div>
@@ -455,7 +455,7 @@ html,body{height:100%;overflow:hidden;background:#0d1117;color:#e6edf3}
       <span onclick="closeDisclaimer()" style="cursor:pointer;color:#8b949e;font-size:18px;line-height:1;padding:2px 4px">×</span>
     </div>
     <div style="font-size:12px;color:#c9d1d9;line-height:1.55;text-align:justify;text-align-last:left">
-      <p style="margin:0 0 10px">GeoWay é uma ferramenta gratuita e testada de apoio ao planejamento de missões. Sempre revise a missão antes do voo, respeite as normas locais e as condições do ambiente, e opere seu drone com segurança. O uso é de responsabilidade exclusiva do piloto, não nos responsabilizamos por danos, perdas, acidentes, falhas de equipamento ou qualquer consequência do uso dos arquivos gerados.</p>
+      <p style="margin:0 0 10px">WayPointsForFly é uma ferramenta gratuita e testada de apoio ao planejamento de missões. Sempre revise a missão antes do voo, respeite as normas locais e as condições do ambiente, e opere seu drone com segurança. O uso é de responsabilidade exclusiva do piloto, não nos responsabilizamos por danos, perdas, acidentes, falhas de equipamento ou qualquer consequência do uso dos arquivos gerados.</p>
       <p style="margin:0 0 10px">O uso da ferramenta é livre e gratuito, mas o projeto (código-fonte) é protegido por direitos autorais.</p>
     </div>
     <button onclick="closeDisclaimer()" style="width:100%;margin-top:14px;background:#238636;color:#fff;border:none;border-radius:6px;padding:8px;font-size:12px;font-weight:600;cursor:pointer">Entendi</button>
@@ -465,7 +465,7 @@ html,body{height:100%;overflow:hidden;background:#0d1117;color:#e6edf3}
 <div id="info-modal" onclick="if(event.target===this)toggleInfo()" style="display:none;position:fixed;inset:0;z-index:2000;background:rgba(1,4,9,.72);align-items:center;justify-content:center">
   <div style="background:#161b22;border:1px solid #30363d;border-radius:10px;max-width:480px;width:88%;max-height:82vh;overflow-y:auto;padding:18px 20px;box-shadow:0 8px 32px rgba(0,0,0,.5)">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
-      <div style="font-size:14px;font-weight:700;color:#e6edf3">Como usar o GeoWay</div>
+      <div style="font-size:14px;font-weight:700;color:#e6edf3">Como usar o WayPoinsForFly</div>
       <span onclick="toggleInfo()" style="cursor:pointer;color:#8b949e;font-size:18px;line-height:1;padding:2px 4px">×</span>
     </div>
     <div style="font-size:12px;color:#c9d1d9;line-height:1.55">
